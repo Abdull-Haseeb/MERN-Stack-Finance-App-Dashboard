@@ -23,7 +23,7 @@ export const tokens = {
     900: "#043028",
   },
   secondary: {
-    // yellow
+   
     100: "#fcf0dd",
     200: "#fae1bb",
     300: "#f7d299",
