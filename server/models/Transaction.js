@@ -25,3 +25,7 @@ const TransactionSchema = new Schema(
   },
   { timestamps: true, toJSON: { getters: true } }
 );
+
+const Transaction = mongoose.model("Transaction", TransactionSchema);
+
+export default Transaction;
